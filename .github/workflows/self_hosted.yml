@@ -10,7 +10,7 @@ on:
 
 jobs:
   setup-rdp-tunnel:
-    runs-on: [self-hosted, windows]
+    runs-on: self-hosted
 
     steps:
     - name: Check out the repository
